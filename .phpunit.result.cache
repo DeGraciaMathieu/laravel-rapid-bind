@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Unit\\RapidBindTest::it_should_create_singleton_with_Bind_attribute":5,"Tests\\Unit\\RapidBindTest::it_should_not_create_singleton_without_Bind_attribute":8},"times":{"Tests\\Unit\\RapidBindTest::it_should_create_singleton_with_Bind_attribute":0.036,"Tests\\Unit\\RapidBindTest::it_should_not_create_singleton_without_Bind_attribute":0.001}}
