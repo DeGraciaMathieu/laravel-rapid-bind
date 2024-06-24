@@ -8,8 +8,8 @@
         "illuminate/support": "10.*|11.*"
     },
     "require-dev": {
-        "orchestra/testbench": "9.1.*",
-        "phpunit/phpunit": "11.1.*"
+        "orchestra/testbench": "8.*|9.1.*",
+        "phpunit/phpunit": "10.*|11.1.*"
     },
     "autoload": {
         "psr-4": {
