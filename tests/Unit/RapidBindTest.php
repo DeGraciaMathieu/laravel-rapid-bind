@@ -25,7 +25,7 @@ class RapidBindTest extends TestCase
             ->once();
 
         RapidBind::bind([
-            realpath('tests/Unit/Stubs/Ports'),
+            'tests/Unit/Stubs/Ports',
         ]);
     }
 
@@ -36,7 +36,7 @@ class RapidBindTest extends TestCase
             ->shouldNotHaveReceived('singleton');
 
         RapidBind::bind([
-            realpath('tests/Unit/Stubs/Services')
+            'tests/Unit/Stubs/Services',
         ]);
     }
 }

@@ -13,7 +13,7 @@ class RapidBind
     {
         foreach ($paths as $path) {
 
-            $classMap = ClassMapGenerator::createMap($path);
+            $classMap = ClassMapGenerator::createMap(realpath($path));
 
             foreach ($classMap as $port => $_) {
 
