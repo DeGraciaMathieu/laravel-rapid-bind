@@ -1,4 +1,3 @@
-
 <p align="center">
     <img style='height: 350px' src='https://github.com/DeGraciaMathieu/laravel-rapid-bind/assets/11473997/17e2a556-e081-4889-8ae4-30f074e41686'>
 </p>
@@ -51,6 +50,7 @@ Now, add the Bind annotation on the port with the value of the FQCN of the assoc
 
 namespace App\Domain\Ports\Repositories;
 
+use DeGraciaMathieu\RapidBind\Bind;
 use App\Infrastructure\Repositories\UserRepositoryAdapter;
 
 #[Bind(UserRepositoryAdapter::class)]
