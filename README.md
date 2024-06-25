@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img style='height: 350px' src='https://github.com/DeGraciaMathieu/laravel-rapid-bind/assets/11473997/41ae8f4b-905e-47de-a0fa-0696e03ea203'>
+    <img style='height: 350px' src='https://github.com/DeGraciaMathieu/laravel-rapid-bind/assets/11473997/17e2a556-e081-4889-8ae4-30f074e41686'>
 </p>
 
 # laravel-rapid-bind
@@ -30,7 +30,7 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         RapidBind::bind([
-            'App\Domain\Ports\Repositories',
+            '../app/Domain/Ports/Repositories',
         ]);
     }
 
