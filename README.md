@@ -59,6 +59,24 @@ interface UserRepository
     //
 }
 ```
+```php
+<?php
+
+namespace App\Infrastructure\Repositories;
+
+use App\Domain\Ports\Repositories\UserRepository;
+
+class UserRepositoryAdapter implements UserRepository
+{
+    //
+}
+```
 
 From now on, a singleton has been automatically created between the port and the adapter !
+
+```php
+$userRepository = app(UserRepository::class);
+
+dd($userRepository); // App\Infrastructure\Repositories\UserRepositoryAdapter
+```
 
